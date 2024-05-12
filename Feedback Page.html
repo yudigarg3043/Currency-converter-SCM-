@@ -11,7 +11,7 @@
 <body>
     <div class="container">
         <h2><u>Feedback Form!!</u></h2>
-        <form onsubmit="return feedback1()">
+        <form onsubmit="return feedback1()" action="Homepage.html">
             <label for="name">Full Name:</label>
             <input type="text" id="name" name="name" placeholder="Write Your Full Name">
 
@@ -26,7 +26,7 @@
             <button type="button" onclick="showFeedbackMessage('😢', 'Not Good')">😢</button>
 
             <div id="feedback-message" style="margin-top: 10px;"></div>
-            <form action="Home Page.html">
+            <form>
                 <button onclick="window.location.href='HomePage.html';">SUBMIT YOUR FEEDBACK HERE</button>
             </form>
             </form> 
